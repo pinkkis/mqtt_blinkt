@@ -51,8 +51,8 @@ function playAnimation(animation, duration) {
 			break;
 
 		case "rotate":
-			blinkt.setAll(255, 0, 0);
-			blinkt.setPixel(3, 200, 255, 0);
+			blinkt.setAll(359, 100, 100);
+			blinkt.setPixel(3, 180, 255, 100);
 			blinkt.draw();
 			timer = setInterval(() => {
 				blinkt.rotateLeft();
