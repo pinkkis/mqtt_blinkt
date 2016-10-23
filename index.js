@@ -18,7 +18,7 @@ console.info('connected and subscribed to "blinkt" channel');
 client.on('message', (token, msg) => {
 	let payload = JSON.parse(msg);
 
-	console.info(`Received message on channel ${token}: ${msg.command}, ${msg.animation}, ${msg.duration}`);
+	console.info(`Received message token ${token}, command:${payload.command}, anim:${payload.animation}, duration:${payload.duration}`);
 
 	if (!payload.command) { return; }
 
