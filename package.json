@@ -1,6 +1,6 @@
 {
   "name": "mqtt_blinkt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quick mqtt enabled blinkt container",
   "main": "index.js",
   "scripts": {
