@@ -1,15 +1,20 @@
 {
   "name": "mqtt_blinkt",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Quick mqtt enabled blinkt container",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinkkis/mqtt_blinkt"
+  },
+  "keywords": ["blinkt", "mqtt", "neopixels"],
+  "author": "@pinkkis",
+  "license": "MIT",
   "dependencies": {
     "mqtt": "^2.0.1",
     "blinktjs": "^0.8.1"
